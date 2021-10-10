@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.container{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .container h1{
+     font-size: 40px;
+     color: coral;
+ }
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .btns{
+     padding: 10px;
+     margin: 20px;
+ }
+
+ span{
+     font-size: 80px;
+     margin-top: 20px;
+     color: gray
+ }
+  button{
+      border: 1px solid black;
+      border-radius: 8px;
+      background: none;
+      outline: none;
+      padding: 10px;
+      margin: 7px;
+
+  }
