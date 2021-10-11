@@ -17,7 +17,8 @@ btns.forEach((btn) => {
 
         
         if(count > 0){
-            counter.style.color = 'blue';
+            counter.style.background = 'black';
+            counter.style.color = 'white';
         }else if(count<0){
             counter.style.color = 'red';
         }else{
